@@ -32,7 +32,7 @@ class ViewController: JSQMessagesViewController {
     var textToSpeech: TextToSpeech!
     
     var audioPlayer: AVAudioPlayer?
-    var workspace = Credentials.AssistantWorkspace
+    var workspace = Credentials.ConversationWorkspace
     var context: Context?
     
     override func viewDidLoad() {
@@ -50,8 +50,8 @@ extension ViewController {
     /// Instantiate the Watson services
     func setupWatsonServices() {
         assistant = Assistant(
-            username: Credentials.AssistantUsername,
-            password: Credentials.AssistantPassword,
+            username: Credentials.ConversationUsername,
+            password: Credentials.ConversationPassword,
             version: "2017-05-26"
         )
         speechToText = SpeechToText(

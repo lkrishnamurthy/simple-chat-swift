@@ -124,7 +124,6 @@
 				6800B91B1EE218EC00F2BD7C /* Frameworks */,
 				6800B91C1EE218EC00F2BD7C /* Resources */,
 				B7DADF0B81766F4245C893C4 /* [CP] Embed Pods Frameworks */,
-				768FA63A501AE9EC526A9C43 /* [CP] Copy Pods Resources */,
 				681575211EE21A2100E2F476 /* ShellScript */,
 			);
 			buildRules = (
@@ -148,7 +147,7 @@
 				TargetAttributes = {
 					6800B91D1EE218EC00F2BD7C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CDXLDASP22;
+						DevelopmentTeam = J5W9DFXHG6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -201,21 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		768FA63A501AE9EC526A9C43 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		B7DADF0B81766F4245C893C4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -393,14 +377,14 @@
 			baseConfigurationReference = 0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CDXLDASP22;
+				DEVELOPMENT_TEAM = J5W9DFXHG6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat-LK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -411,14 +395,14 @@
 			baseConfigurationReference = 661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CDXLDASP22;
+				DEVELOPMENT_TEAM = J5W9DFXHG6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat-LK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
